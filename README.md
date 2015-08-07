@@ -1,2 +1,4 @@
 # PHPRayCrossingAlgorithm
-Determines if a point is inside a polygon
+PHP function to determine if a point is inside a polygon.
+
+Sample usage is included.
