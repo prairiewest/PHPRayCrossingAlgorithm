@@ -1,8 +1,8 @@
 <?php
 
 /*
- * @param point array (lat => int, long => int)
- * @param vertices array (points)
+ * @param point array[lat => number, long => number]
+ * @param vertices array[point1, point2, ...]
  */
 function _pointInsidePolygon( $point, $vertices ) {
         if ( count( $vertices ) <= 2 ) {
